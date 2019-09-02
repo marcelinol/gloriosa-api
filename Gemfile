@@ -9,6 +9,7 @@ gem 'graphql', '1.9.11'
 gem "graphiql-rails", '~> 1.7.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
+gem 'rack-cors'
 
 group :development, :test do
   gem 'byebug'
