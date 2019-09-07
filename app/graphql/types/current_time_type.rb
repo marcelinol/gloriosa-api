@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Types
   class CurrentTimeType < BaseObject
     field :minutes, Int, null: true, description: "How many minutes have passed or are missing until next or last 8:07"

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Mutations
   class SubmitQuote < BaseMutation
     argument :text, String, required: true
