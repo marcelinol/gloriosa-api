@@ -10,7 +10,7 @@ gem "bootsnap", ">= 1.1.0", require: false
 gem "graphql", "1.9.11"
 gem "graphiql-rails", "~> 1.7.0"
 gem "pg", ">= 0.18", "< 2.0"
-gem "puma", "~> 3.11"
+gem "puma", "~> 3.12"
 gem "rack-cors"
 gem "rollbar"
 gem "scout_apm"
